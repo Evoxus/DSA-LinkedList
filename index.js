@@ -32,12 +32,13 @@ function main() {
 
   // Supplemental Exercises
 
-  console.log(isEmpty(SLL))
-  console.log(size(SLL))
-  // display(SLL)
-  console.log('findPrevious: ', findPrevious(SLL, 'Kat'))
-  console.log('findLast: ', findLast(SLL))
-
+  // console.log(isEmpty(SLL))
+  // console.log(size(SLL))
+  console.log('before reverse')
+  display(SLL)
+  // console.log('findPrevious: ', findPrevious(SLL, 'Kat'))
+  // console.log('findLast: ', findLast(SLL))
+  console.log('after reverse')
   reverseLinkedList(SLL)
   display(SLL)
 }
